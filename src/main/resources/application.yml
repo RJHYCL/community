@@ -1,0 +1,6 @@
+github:
+  client:
+    id: Iv1.d4e919adc700f4a7
+    secret: fe451f67317b475d5b2a212131dfdb70d875b661
+  redirect:
+    uri: http://127.0.0.1:8080/callback
