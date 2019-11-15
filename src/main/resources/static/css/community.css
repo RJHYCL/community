@@ -1,0 +1,22 @@
+body{
+    background-color: #efefef;
+}
+.main{
+    margin: 30px;
+    background-color: white;
+}
+.btn-publish{
+    float: right;
+    margin-bottom: 15px;
+}
+.glyphicon-plus{
+    margin-bottom: 20px;
+}
+.list-1 li{
+    line-height: 30px;
+}
+.media-body .span{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}

@@ -4,3 +4,14 @@ github:
     secret: fe451f67317b475d5b2a212131dfdb70d875b661
   redirect:
     uri: http://127.0.0.1:8080/callback
+#  h2数据库配置
+spring:
+  datasource:
+    url: jdbc:h2:~/IdeaProjects/community/src/main/resources/static/h2/h2db
+    username: root
+    password: root
+    driver-class-name: org.h2.Driver
+#数据库驼峰映射
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
